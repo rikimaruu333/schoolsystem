@@ -1,0 +1,214 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.screencontainer {
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    overflow: hidden;
+    width: 80%;
+    max-width: 500px;
+}
+
+.daddycontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.headcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.pagecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.textcontainer {
+    text-align: center;
+    color: #333;
+}
+
+.hellotxt {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.welcome {
+    font-size: 16px;
+    color: #555;
+}
+
+.signup-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.clientsignup_btn,
+.freelancersignup_btn {
+    padding: 10px;
+    background-color: #6a60d4;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.clientsignup_btn:hover,
+.freelancersignup_btn:hover {
+    background-color: #342aa3;
+}
+
+
+
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      
+      .modal-content {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 20vw;
+        min-height: 50vh;
+        max-height: 50vh;
+        transform: translate(-50%, -50%);
+        padding: 40px;
+        background-color: #efefef;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+      
+      .close, .closeupdate {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .closeupdate:hover,
+      .closeupdate:focus,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      /* Style for input fields and button */
+      label {
+        display: block;
+        margin-bottom: 8px;
+      }
+      
+      input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+      }
+      
+      
+      /* Style for the selected file name display */
+      #selectedFileName {
+        margin-top: 8px;
+        font-size: 14px;
+        color: #555;
+      }
+    
+      form{
+        margin-top: 20px;
+      }
+      .icon{
+          height: 20px;
+          width: 20px;
+      }
+    
+.eyebutton{
+    position: absolute;
+    right: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin: 0 5px 0 5px;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0;
+    background-color: #131124;
+}
+.eyebutton:hover{
+    opacity: 0.9;
+}
+.eyebutton:active{
+    opacity: 0.8;
+}
+
+.login_btn{
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    
+    background-color: #6a60d4;
+    border-radius: 20px;
+
+    font-weight: 700;
+    color: white;
+
+    padding: 0.7em 2.5em;
+    border: none;
+
+    transition: all 0.3s;
+}
+
+.login_btn:hover{
+    background-color: #342aa3;
+
+}
